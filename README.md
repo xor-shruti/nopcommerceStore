@@ -1,2 +1,0 @@
-# nopcommerceStore
-nopcommerce demo store
