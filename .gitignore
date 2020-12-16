@@ -1,0 +1,7 @@
+node_modules
+test_results
+tests_output
+screenshots
+report
+build/
+*.log

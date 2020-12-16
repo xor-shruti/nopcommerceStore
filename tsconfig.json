@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "compilerOptions": {
+  "outDir": "./build", // Redirect output structure to the directory
+  "rootDir": ".",
+  "target": "es5",                          
+  "module": "commonjs",
+  "allowJs": true,
+  "sourceMap": true,
+  "pretty": true,
+  "noUnusedLocals": true,
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+  "moduleResolution": "node",
+  },
+  "include": [ "./page-objects/*.ts","./step-definitions/*.ts"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "../node_modules",
+    "*/*-test.tsx",
+    "*/*-test.ts"
+  ]
+}
